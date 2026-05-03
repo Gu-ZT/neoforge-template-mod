@@ -1,7 +1,7 @@
 neoForge {
     version = libs.versions.neoForge.get()
 
-    accessTransformers.from('src/main/templates/META-INF/accesstransformer.cfg')
+    accessTransformers.from('src/main/resources/META-INF/accesstransformer.cfg')
 
     interfaceInjectionData {
         from 'src/main/resources/interface_injections.json'
